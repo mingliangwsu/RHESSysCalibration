@@ -22,7 +22,7 @@ min_c[2]=0.005
 max_c[2]=0.10
 min_c[3]=0.1
 max_c[3]=0.6
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
 #evergreen (2nd site Highelevation)
 patchID=29586
@@ -32,7 +32,7 @@ height=19.62
 npp=0.776
 LAI=6.4
 AGBc=14.43
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
 #evergreen (3rd site Highelevation)
 patchID=81839
@@ -42,7 +42,7 @@ height=16.93
 npp=0.781
 LAI=6.2
 AGBc=11.57
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
 #evergreen (4th site Highelevation)
 patchID=88264
@@ -52,7 +52,7 @@ height=36.53
 npp=0.793
 LAI=7.0
 AGBc=32.38
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
 
 #shrub
@@ -76,7 +76,7 @@ min_c[2]=0.005
 max_c[2]=0.10
 min_c[3]=0.1
 max_c[3]=5
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
 #deciduous
 veg=2
@@ -99,5 +99,5 @@ min_c[2]=0.005
 max_c[2]=0.10
 min_c[3]=0.1
 max_c[3]=0.6
-bash calibrate_mr_coef_sla_mortality_array_imp_final.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
+bash Calibrate_job_mode.sh ${veg} ${cover_fraction} ${patchID} ${npp_gpp_ratio} ${height} ${npp} ${LAI} ${AGBc} ${min_c[0]} ${max_c[0]} ${min_c[1]} ${max_c[1]} ${min_c[2]} ${max_c[2]} ${min_c[3]} ${max_c[3]}
 
