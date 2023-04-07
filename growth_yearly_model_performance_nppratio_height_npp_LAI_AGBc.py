@@ -6,13 +6,13 @@ Calculate model performance on NPP/GPP ratio
 @author: liuming
 """
 
-import matplotlib.pyplot as plt
-import numpy as np
+#import matplotlib.pyplot as plt
+#import numpy as np
 import pandas as pd
 import sys 
-import os
-from os.path import exists
-import math
+#import os
+#from os.path import exists
+#import math
 import scipy.stats
 
 #from scipy.interpolate import make_interp_spline, BSpline
@@ -21,7 +21,7 @@ import scipy.stats
 if len(sys.argv) <= 1:
     print("Usage:" + sys.argv[0] + "<growth_year_file> <valid_start_year> <valid_end_year> <valid_veg_id> <patch_stratum_vegid_file> <target1> <target_stddev1> ... <outdist_file> <out_record_file>\n")
     sys.exit(0)
-    
+print(f'leng_args:{len(sys.argv)}')    
 #target0:npp/gpp ratio  
 #target1:height (m)
 #target2:npp  (kgC/year)
